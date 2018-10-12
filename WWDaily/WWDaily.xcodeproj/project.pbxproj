@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E8516C581A4C5D7AF29A80A /* libPods-WWDailyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29784495B5ED92FA2E4B3FC0 /* libPods-WWDailyTests.a */; };
+		75488FE4A9EF73F3D390B4A9 /* libPods-WWDailyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA275FAF73E12BE3D2B2880 /* libPods-WWDailyUITests.a */; };
+		A54DB6C4279A7C02704EA38F /* libPods-WWDaily.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7FC1C235AF4D5BE91D258 /* libPods-WWDaily.a */; };
+		EE071B44210F3E7900FB9964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE071B43210F3E7900FB9964 /* AppDelegate.m */; };
+		EE071B4A210F3E7900FB9964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE071B48210F3E7900FB9964 /* Main.storyboard */; };
+		EE071B4C210F3E7A00FB9964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE071B4B210F3E7A00FB9964 /* Assets.xcassets */; };
+		EE071B4F210F3E7A00FB9964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE071B4D210F3E7A00FB9964 /* LaunchScreen.storyboard */; };
+		EE071B52210F3E7A00FB9964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE071B51210F3E7A00FB9964 /* main.m */; };
+		EE071B5C210F3E7A00FB9964 /* WWDailyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE071B5B210F3E7A00FB9964 /* WWDailyTests.m */; };
+		EE071B67210F3E7A00FB9964 /* WWDailyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE071B66210F3E7A00FB9964 /* WWDailyUITests.m */; };
+		EE071B76210F403B00FB9964 /* WWHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE071B75210F403B00FB9964 /* WWHomeTableViewController.m */; };
+		EE1389CB21118994004372A2 /* UIButton+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1389C821118994004372A2 /* UIButton+Delay.m */; };
+		EE1389CC21118994004372A2 /* UIButton+touch.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1389CA21118994004372A2 /* UIButton+touch.m */; };
+		EE1AEEAD2112B7AC00CF5164 /* WWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1AEEAC2112B7AC00CF5164 /* WWButton.m */; };
+		EE1AEEB52112C08700CF5164 /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1AEEB42112C08700CF5164 /* NSDictionary+NilSafe.m */; };
+		EE1AEEBD2112E0CC00CF5164 /* WWTouchCancelView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1AEEBC2112E0CC00CF5164 /* WWTouchCancelView.m */; };
+		EE1AEEFD2113021C00CF5164 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1AEEFC2113021B00CF5164 /* NullSafe.m */; };
+		EE3E2A3E2147D28C00370E52 /* WWUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3E2A3D2147D28C00370E52 /* WWUIWebViewController.m */; };
+		EE3F089D211002C200756DA5 /* WWButtonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3F089C211002C200756DA5 /* WWButtonTableViewController.m */; };
+		EE3F08A0211002D800756DA5 /* WWButtonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3F089F211002D800756DA5 /* WWButtonDetailViewController.m */; };
+		EE3F08AA2110177500756DA5 /* WWButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3F08A92110177500756DA5 /* WWButtonTableViewCell.m */; };
+		EE3F08AD2110178A00756DA5 /* WWButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3F08AC2110178A00756DA5 /* WWButtonCollectionViewCell.m */; };
+		EE4B936F2127C31500C79536 /* WWRecurisveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4B936E2127C31500C79536 /* WWRecurisveViewController.m */; };
+		EEEBF5ED2110390F00F4C60D /* WWConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEBF5EC2110390F00F4C60D /* WWConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE071B58210F3E7A00FB9964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE071B37210F3E7900FB9964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE071B3E210F3E7900FB9964;
+			remoteInfo = WWDaily;
+		};
+		EE071B63210F3E7A00FB9964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE071B37210F3E7900FB9964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE071B3E210F3E7900FB9964;
+			remoteInfo = WWDaily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29784495B5ED92FA2E4B3FC0 /* libPods-WWDailyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWDailyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF9E5A6B25EEA3319D69093 /* Pods-WWDailyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDailyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDailyUITests/Pods-WWDailyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70E7FC1C235AF4D5BE91D258 /* libPods-WWDaily.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWDaily.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79730DCA9D782D53C6E284AA /* Pods-WWDailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDailyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDailyTests/Pods-WWDailyTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EA275FAF73E12BE3D2B2880 /* libPods-WWDailyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WWDailyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F4C87EEE773F4468FC6F2A /* Pods-WWDailyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDailyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDailyUITests/Pods-WWDailyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2BFE1038D6388C4793AA36E /* Pods-WWDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWDaily/Pods-WWDaily.release.xcconfig"; sourceTree = "<group>"; };
+		C487DBD303E630936F74CB78 /* Pods-WWDailyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDailyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDailyTests/Pods-WWDailyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE071B3F210F3E7900FB9964 /* WWDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE071B42210F3E7900FB9964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE071B43210F3E7900FB9964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE071B49210F3E7900FB9964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE071B4B210F3E7A00FB9964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE071B4E210F3E7A00FB9964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE071B50210F3E7A00FB9964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE071B51210F3E7A00FB9964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE071B57210F3E7A00FB9964 /* WWDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE071B5B210F3E7A00FB9964 /* WWDailyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDailyTests.m; sourceTree = "<group>"; };
+		EE071B5D210F3E7A00FB9964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE071B62210F3E7A00FB9964 /* WWDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE071B66210F3E7A00FB9964 /* WWDailyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDailyUITests.m; sourceTree = "<group>"; };
+		EE071B68210F3E7A00FB9964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE071B74210F403B00FB9964 /* WWHomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWHomeTableViewController.h; sourceTree = "<group>"; };
+		EE071B75210F403B00FB9964 /* WWHomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWHomeTableViewController.m; sourceTree = "<group>"; };
+		EE1389C721118994004372A2 /* UIButton+Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
+		EE1389C821118994004372A2 /* UIButton+Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; };
+		EE1389C921118994004372A2 /* UIButton+touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+touch.h"; sourceTree = "<group>"; };
+		EE1389CA21118994004372A2 /* UIButton+touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+touch.m"; sourceTree = "<group>"; };
+		EE1AEEAB2112B7AC00CF5164 /* WWButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWButton.h; sourceTree = "<group>"; };
+		EE1AEEAC2112B7AC00CF5164 /* WWButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWButton.m; sourceTree = "<group>"; };
+		EE1AEEB32112C08700CF5164 /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		EE1AEEB42112C08700CF5164 /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
+		EE1AEEBB2112E0CC00CF5164 /* WWTouchCancelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWTouchCancelView.h; sourceTree = "<group>"; };
+		EE1AEEBC2112E0CC00CF5164 /* WWTouchCancelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWTouchCancelView.m; sourceTree = "<group>"; };
+		EE1AEEFC2113021B00CF5164 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		EE3E2A3C2147D28C00370E52 /* WWUIWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWUIWebViewController.h; sourceTree = "<group>"; };
+		EE3E2A3D2147D28C00370E52 /* WWUIWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWUIWebViewController.m; sourceTree = "<group>"; };
+		EE3F089B211002C200756DA5 /* WWButtonTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWButtonTableViewController.h; sourceTree = "<group>"; };
+		EE3F089C211002C200756DA5 /* WWButtonTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWButtonTableViewController.m; sourceTree = "<group>"; };
+		EE3F089E211002D800756DA5 /* WWButtonDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWButtonDetailViewController.h; sourceTree = "<group>"; };
+		EE3F089F211002D800756DA5 /* WWButtonDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWButtonDetailViewController.m; sourceTree = "<group>"; };
+		EE3F08A42110108800756DA5 /* WWDailyPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWDailyPrefixHeader.pch; sourceTree = "<group>"; };
+		EE3F08A82110177500756DA5 /* WWButtonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWButtonTableViewCell.h; sourceTree = "<group>"; };
+		EE3F08A92110177500756DA5 /* WWButtonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWButtonTableViewCell.m; sourceTree = "<group>"; };
+		EE3F08AB2110178A00756DA5 /* WWButtonCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWButtonCollectionViewCell.h; sourceTree = "<group>"; };
+		EE3F08AC2110178A00756DA5 /* WWButtonCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWButtonCollectionViewCell.m; sourceTree = "<group>"; };
+		EE4B936D2127C31500C79536 /* WWRecurisveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWRecurisveViewController.h; sourceTree = "<group>"; };
+		EE4B936E2127C31500C79536 /* WWRecurisveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWRecurisveViewController.m; sourceTree = "<group>"; };
+		EEEBF5EB2110390F00F4C60D /* WWConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWConfiguration.h; sourceTree = "<group>"; };
+		EEEBF5EC2110390F00F4C60D /* WWConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWConfiguration.m; sourceTree = "<group>"; };
+		F2BB9CF1D4DDB5F90F275F0C /* Pods-WWDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWDaily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWDaily/Pods-WWDaily.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE071B3C210F3E7900FB9964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54DB6C4279A7C02704EA38F /* libPods-WWDaily.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE071B54210F3E7A00FB9964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8516C581A4C5D7AF29A80A /* libPods-WWDailyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE071B5F210F3E7A00FB9964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75488FE4A9EF73F3D390B4A9 /* libPods-WWDailyUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346C0B74A724C580E64D552E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E7FC1C235AF4D5BE91D258 /* libPods-WWDaily.a */,
+				29784495B5ED92FA2E4B3FC0 /* libPods-WWDailyTests.a */,
+				9EA275FAF73E12BE3D2B2880 /* libPods-WWDailyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA7699CF3CE587B224AE1376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB9CF1D4DDB5F90F275F0C /* Pods-WWDaily.debug.xcconfig */,
+				B2BFE1038D6388C4793AA36E /* Pods-WWDaily.release.xcconfig */,
+				C487DBD303E630936F74CB78 /* Pods-WWDailyTests.debug.xcconfig */,
+				79730DCA9D782D53C6E284AA /* Pods-WWDailyTests.release.xcconfig */,
+				2CF9E5A6B25EEA3319D69093 /* Pods-WWDailyUITests.debug.xcconfig */,
+				A6F4C87EEE773F4468FC6F2A /* Pods-WWDailyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE071B36210F3E7900FB9964 = {
+			isa = PBXGroup;
+			children = (
+				EE071B41210F3E7900FB9964 /* WWDaily */,
+				EE071B5A210F3E7A00FB9964 /* WWDailyTests */,
+				EE071B65210F3E7A00FB9964 /* WWDailyUITests */,
+				EE071B40210F3E7900FB9964 /* Products */,
+				CA7699CF3CE587B224AE1376 /* Pods */,
+				346C0B74A724C580E64D552E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE071B40210F3E7900FB9964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE071B3F210F3E7900FB9964 /* WWDaily.app */,
+				EE071B57210F3E7A00FB9964 /* WWDailyTests.xctest */,
+				EE071B62210F3E7A00FB9964 /* WWDailyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE071B41210F3E7900FB9964 /* WWDaily */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E2A3A2147D26200370E52 /* WWUIWebView */,
+				EE4B936C2127C2AC00C79536 /* Recurisve */,
+				EE1AEEAE2112C02A00CF5164 /* ThirdLib */,
+				EE1389CD2111A382004372A2 /* Custom */,
+				EE1389C52111897A004372A2 /* Category */,
+				EE3F08A12110103A00756DA5 /* SupportingFiles */,
+				EE3F089A2110029400756DA5 /* WWButton */,
+				EE071B77210F404100FB9964 /* Home */,
+				EE071B42210F3E7900FB9964 /* AppDelegate.h */,
+				EE071B43210F3E7900FB9964 /* AppDelegate.m */,
+				EE071B48210F3E7900FB9964 /* Main.storyboard */,
+				EE071B4B210F3E7A00FB9964 /* Assets.xcassets */,
+				EE071B4D210F3E7A00FB9964 /* LaunchScreen.storyboard */,
+				EE071B50210F3E7A00FB9964 /* Info.plist */,
+				EE071B51210F3E7A00FB9964 /* main.m */,
+			);
+			path = WWDaily;
+			sourceTree = "<group>";
+		};
+		EE071B5A210F3E7A00FB9964 /* WWDailyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE071B5B210F3E7A00FB9964 /* WWDailyTests.m */,
+				EE071B5D210F3E7A00FB9964 /* Info.plist */,
+			);
+			path = WWDailyTests;
+			sourceTree = "<group>";
+		};
+		EE071B65210F3E7A00FB9964 /* WWDailyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE071B66210F3E7A00FB9964 /* WWDailyUITests.m */,
+				EE071B68210F3E7A00FB9964 /* Info.plist */,
+			);
+			path = WWDailyUITests;
+			sourceTree = "<group>";
+		};
+		EE071B77210F404100FB9964 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE071B74210F403B00FB9964 /* WWHomeTableViewController.h */,
+				EE071B75210F403B00FB9964 /* WWHomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE1389C52111897A004372A2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EE1389C621118994004372A2 /* UIButton-touch */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EE1389C621118994004372A2 /* UIButton-touch */ = {
+			isa = PBXGroup;
+			children = (
+				EE1389C721118994004372A2 /* UIButton+Delay.h */,
+				EE1389C821118994004372A2 /* UIButton+Delay.m */,
+				EE1389C921118994004372A2 /* UIButton+touch.h */,
+				EE1389CA21118994004372A2 /* UIButton+touch.m */,
+			);
+			path = "UIButton-touch";
+			sourceTree = "<group>";
+		};
+		EE1389CD2111A382004372A2 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EE1AEEAB2112B7AC00CF5164 /* WWButton.h */,
+				EE1AEEAC2112B7AC00CF5164 /* WWButton.m */,
+				EE1AEEBB2112E0CC00CF5164 /* WWTouchCancelView.h */,
+				EE1AEEBC2112E0CC00CF5164 /* WWTouchCancelView.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EE1AEEAE2112C02A00CF5164 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				EE1AEEB82112C12200CF5164 /* NullSafe */,
+				EE1AEEB22112C08700CF5164 /* NSDictionary-NilSafe */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		EE1AEEB22112C08700CF5164 /* NSDictionary-NilSafe */ = {
+			isa = PBXGroup;
+			children = (
+				EE1AEEB32112C08700CF5164 /* NSDictionary+NilSafe.h */,
+				EE1AEEB42112C08700CF5164 /* NSDictionary+NilSafe.m */,
+			);
+			path = "NSDictionary-NilSafe";
+			sourceTree = "<group>";
+		};
+		EE1AEEB82112C12200CF5164 /* NullSafe */ = {
+			isa = PBXGroup;
+			children = (
+				EE1AEEFC2113021B00CF5164 /* NullSafe.m */,
+			);
+			path = NullSafe;
+			sourceTree = "<group>";
+		};
+		EE3E2A3A2147D26200370E52 /* WWUIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E2A3B2147D26F00370E52 /* Controller */,
+			);
+			path = WWUIWebView;
+			sourceTree = "<group>";
+		};
+		EE3E2A3B2147D26F00370E52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E2A3C2147D28C00370E52 /* WWUIWebViewController.h */,
+				EE3E2A3D2147D28C00370E52 /* WWUIWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE3F089A2110029400756DA5 /* WWButton */ = {
+			isa = PBXGroup;
+			children = (
+				EE3F08A72110174600756DA5 /* Model */,
+				EE3F08A62110173D00756DA5 /* View */,
+				EE3F08A52110172F00756DA5 /* Controller */,
+			);
+			path = WWButton;
+			sourceTree = "<group>";
+		};
+		EE3F08A12110103A00756DA5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EE3F08A42110108800756DA5 /* WWDailyPrefixHeader.pch */,
+				EE3F08A22110104F00756DA5 /* Config */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		EE3F08A22110104F00756DA5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				EEEBF5EB2110390F00F4C60D /* WWConfiguration.h */,
+				EEEBF5EC2110390F00F4C60D /* WWConfiguration.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		EE3F08A52110172F00756DA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE3F089B211002C200756DA5 /* WWButtonTableViewController.h */,
+				EE3F089C211002C200756DA5 /* WWButtonTableViewController.m */,
+				EE3F089E211002D800756DA5 /* WWButtonDetailViewController.h */,
+				EE3F089F211002D800756DA5 /* WWButtonDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE3F08A62110173D00756DA5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE3F08A82110177500756DA5 /* WWButtonTableViewCell.h */,
+				EE3F08A92110177500756DA5 /* WWButtonTableViewCell.m */,
+				EE3F08AB2110178A00756DA5 /* WWButtonCollectionViewCell.h */,
+				EE3F08AC2110178A00756DA5 /* WWButtonCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE3F08A72110174600756DA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE4B936C2127C2AC00C79536 /* Recurisve */ = {
+			isa = PBXGroup;
+			children = (
+				EE4B936D2127C31500C79536 /* WWRecurisveViewController.h */,
+				EE4B936E2127C31500C79536 /* WWRecurisveViewController.m */,
+			);
+			path = Recurisve;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE071B3E210F3E7900FB9964 /* WWDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE071B6B210F3E7A00FB9964 /* Build configuration list for PBXNativeTarget "WWDaily" */;
+			buildPhases = (
+				7494EE44F076EA4BC33E5442 /* [CP] Check Pods Manifest.lock */,
+				EE071B3B210F3E7900FB9964 /* Sources */,
+				EE071B3C210F3E7900FB9964 /* Frameworks */,
+				EE071B3D210F3E7900FB9964 /* Resources */,
+				9F2BCC24DA7A07BE4E2776D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWDaily;
+			productName = WWDaily;
+			productReference = EE071B3F210F3E7900FB9964 /* WWDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE071B56210F3E7A00FB9964 /* WWDailyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE071B6E210F3E7A00FB9964 /* Build configuration list for PBXNativeTarget "WWDailyTests" */;
+			buildPhases = (
+				56036A44B4769726CADFF456 /* [CP] Check Pods Manifest.lock */,
+				EE071B53210F3E7A00FB9964 /* Sources */,
+				EE071B54210F3E7A00FB9964 /* Frameworks */,
+				EE071B55210F3E7A00FB9964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE071B59210F3E7A00FB9964 /* PBXTargetDependency */,
+			);
+			name = WWDailyTests;
+			productName = WWDailyTests;
+			productReference = EE071B57210F3E7A00FB9964 /* WWDailyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE071B61210F3E7A00FB9964 /* WWDailyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE071B71210F3E7A00FB9964 /* Build configuration list for PBXNativeTarget "WWDailyUITests" */;
+			buildPhases = (
+				9F78A7093F1AA882752CCD5E /* [CP] Check Pods Manifest.lock */,
+				EE071B5E210F3E7A00FB9964 /* Sources */,
+				EE071B5F210F3E7A00FB9964 /* Frameworks */,
+				EE071B60210F3E7A00FB9964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE071B64210F3E7A00FB9964 /* PBXTargetDependency */,
+			);
+			name = WWDailyUITests;
+			productName = WWDailyUITests;
+			productReference = EE071B62210F3E7A00FB9964 /* WWDailyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE071B37210F3E7900FB9964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WW;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = WYW;
+				TargetAttributes = {
+					EE071B3E210F3E7900FB9964 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EE071B56210F3E7A00FB9964 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EE071B3E210F3E7900FB9964;
+					};
+					EE071B61210F3E7A00FB9964 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EE071B3E210F3E7900FB9964;
+					};
+				};
+			};
+			buildConfigurationList = EE071B3A210F3E7900FB9964 /* Build configuration list for PBXProject "WWDaily" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE071B36210F3E7900FB9964;
+			productRefGroup = EE071B40210F3E7900FB9964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE071B3E210F3E7900FB9964 /* WWDaily */,
+				EE071B56210F3E7A00FB9964 /* WWDailyTests */,
+				EE071B61210F3E7A00FB9964 /* WWDailyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE071B3D210F3E7900FB9964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE071B4F210F3E7A00FB9964 /* LaunchScreen.storyboard in Resources */,
+				EE071B4C210F3E7A00FB9964 /* Assets.xcassets in Resources */,
+				EE071B4A210F3E7900FB9964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE071B55210F3E7A00FB9964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE071B60210F3E7A00FB9964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56036A44B4769726CADFF456 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WWDailyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7494EE44F076EA4BC33E5442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WWDaily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2BCC24DA7A07BE4E2776D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WWDaily/Pods-WWDaily-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WWDaily/Pods-WWDaily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F78A7093F1AA882752CCD5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WWDailyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE071B3B210F3E7900FB9964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE071B76210F403B00FB9964 /* WWHomeTableViewController.m in Sources */,
+				EE1AEEB52112C08700CF5164 /* NSDictionary+NilSafe.m in Sources */,
+				EE1389CC21118994004372A2 /* UIButton+touch.m in Sources */,
+				EE3F08AA2110177500756DA5 /* WWButtonTableViewCell.m in Sources */,
+				EEEBF5ED2110390F00F4C60D /* WWConfiguration.m in Sources */,
+				EE1AEEFD2113021C00CF5164 /* NullSafe.m in Sources */,
+				EE3F08A0211002D800756DA5 /* WWButtonDetailViewController.m in Sources */,
+				EE1AEEAD2112B7AC00CF5164 /* WWButton.m in Sources */,
+				EE3F08AD2110178A00756DA5 /* WWButtonCollectionViewCell.m in Sources */,
+				EE1389CB21118994004372A2 /* UIButton+Delay.m in Sources */,
+				EE3F089D211002C200756DA5 /* WWButtonTableViewController.m in Sources */,
+				EE3E2A3E2147D28C00370E52 /* WWUIWebViewController.m in Sources */,
+				EE071B52210F3E7A00FB9964 /* main.m in Sources */,
+				EE4B936F2127C31500C79536 /* WWRecurisveViewController.m in Sources */,
+				EE1AEEBD2112E0CC00CF5164 /* WWTouchCancelView.m in Sources */,
+				EE071B44210F3E7900FB9964 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE071B53210F3E7A00FB9964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE071B5C210F3E7A00FB9964 /* WWDailyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE071B5E210F3E7A00FB9964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE071B67210F3E7A00FB9964 /* WWDailyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE071B59210F3E7A00FB9964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE071B3E210F3E7900FB9964 /* WWDaily */;
+			targetProxy = EE071B58210F3E7A00FB9964 /* PBXContainerItemProxy */;
+		};
+		EE071B64210F3E7A00FB9964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE071B3E210F3E7900FB9964 /* WWDaily */;
+			targetProxy = EE071B63210F3E7A00FB9964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE071B48210F3E7900FB9964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE071B49210F3E7900FB9964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE071B4D210F3E7A00FB9964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE071B4E210F3E7A00FB9964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE071B69210F3E7A00FB9964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE071B6A210F3E7A00FB9964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE071B6C210F3E7A00FB9964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BB9CF1D4DDB5F90F275F0C /* Pods-WWDaily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6LSH6U6V8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WWDaily/SupportingFiles/WWDailyPrefixHeader.pch";
+				INFOPLIST_FILE = WWDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITCoderW.WWDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE071B6D210F3E7A00FB9964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BFE1038D6388C4793AA36E /* Pods-WWDaily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6LSH6U6V8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WWDaily/SupportingFiles/WWDailyPrefixHeader.pch";
+				INFOPLIST_FILE = WWDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITCoderW.WWDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE071B6F210F3E7A00FB9964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C487DBD303E630936F74CB78 /* Pods-WWDailyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6LSH6U6V8;
+				INFOPLIST_FILE = WWDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITCoderW.WWDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDaily.app/WWDaily";
+			};
+			name = Debug;
+		};
+		EE071B70210F3E7A00FB9964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79730DCA9D782D53C6E284AA /* Pods-WWDailyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6LSH6U6V8;
+				INFOPLIST_FILE = WWDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITCoderW.WWDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDaily.app/WWDaily";
+			};
+			name = Release;
+		};
+		EE071B72210F3E7A00FB9964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF9E5A6B25EEA3319D69093 /* Pods-WWDailyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6LSH6U6V8;
+				INFOPLIST_FILE = WWDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITCoderW.WWDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WWDaily;
+			};
+			name = Debug;
+		};
+		EE071B73210F3E7A00FB9964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F4C87EEE773F4468FC6F2A /* Pods-WWDailyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6LSH6U6V8;
+				INFOPLIST_FILE = WWDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITCoderW.WWDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WWDaily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE071B3A210F3E7900FB9964 /* Build configuration list for PBXProject "WWDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE071B69210F3E7A00FB9964 /* Debug */,
+				EE071B6A210F3E7A00FB9964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE071B6B210F3E7A00FB9964 /* Build configuration list for PBXNativeTarget "WWDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE071B6C210F3E7A00FB9964 /* Debug */,
+				EE071B6D210F3E7A00FB9964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE071B6E210F3E7A00FB9964 /* Build configuration list for PBXNativeTarget "WWDailyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE071B6F210F3E7A00FB9964 /* Debug */,
+				EE071B70210F3E7A00FB9964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE071B71210F3E7A00FB9964 /* Build configuration list for PBXNativeTarget "WWDailyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE071B72210F3E7A00FB9964 /* Debug */,
+				EE071B73210F3E7A00FB9964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE071B37210F3E7900FB9964 /* Project object */;
+}
